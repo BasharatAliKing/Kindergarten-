@@ -112,24 +112,36 @@
     h1{
         margin-top: 40px;
         font-size: 40px;
-        line-height: 30px;
+        line-height: 44px;
     }
     p{
+        margin-top: 20px;
         font-size: 18px;
         margin: 20px 0px;
     }
     button{
-        padding: 5px 30px;
+        padding: 10px 30px;
         font-size: 20px;
+        padding-top: 7px;
     }
     #home #box{
-        margin-left: 0px;
+        margin-left: 20px;
         width: 60%;
         height: 90%;
+        padding: 30px;
+    }
+    #home h2{
+        margin-top: 40px;
+    }
+    #welcome p{
+        font-size: 18px;
     }
     #inter{
         margin: 40px 20px;
       
+    }
+    #inter .box h3{
+        font-size: 25px;
     }
     #inter .a{
         width: 100%;
@@ -140,18 +152,22 @@
     #inter .b{
         margin: 0px;
     }
-    #image{
-        margin-top: 100px;
-        width: 100%;
-    }
+  
     #classes .box-sec .box {
         margin-top: 40px;
         width: 80%;
         margin: 50px 40px;
     }
+    #classes .box-sec .box p {
+        font-size: 18px;
+        margin: 0px;
+        margin-top: 10px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
     #drawing .box{
-        width: 80%;
-        padding: 0px;
+        width: 90%;
+        padding: 30px;
     }
     #drawing .time section {
         margin-left: 5px;
@@ -168,8 +184,34 @@
     #expert .pics .box{
         margin-top: 50px;
     }
+    #me img{
+        width: 15%;
+    }
     #me .king{
         margin: 30px 0px;
+    }
+    #me .king .b {
+        margin-top: 15px;
+        margin-left: -140px;
+    }
+    #image{
+        display: inline;
+        width: 100%;
+    }
+    #image img{
+        width: 100%;
+    }
+    #footer{
+        padding: 40px 20px;
+    }
+    #footer .b{
+        margin-left: 0px;
+    }
+    #footer .lap .b{
+        margin-left: 0px;
+    }
+    #footer .c{
+        margin-left: 0px;
     }
     #footer .lap{
         display: inline;
@@ -177,4 +219,7 @@
     #footer .a,.b,.c{
         width: 100%;
     }
+  #footer footer{
+       font-size: 18px
+   }
 }
