@@ -119,11 +119,7 @@
         font-size: 18px;
         margin: 20px 0px;
     }
-    button{
-        padding: 10px 30px;
-        font-size: 20px;
-        padding-top: 7px;
-    }
+   
     #home #box{
         margin-left: 20px;
         width: 60%;
@@ -202,7 +198,11 @@
         width: 100%;
     }
     #footer{
+        width: 90%;
         padding: 40px 20px;
+    }
+    #footer img{
+        width: 50%;
     }
     #footer .b{
         margin-left: 0px;
