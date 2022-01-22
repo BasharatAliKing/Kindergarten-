@@ -129,8 +129,8 @@
         margin-top: 40px;
     }
     #home button{
-        padding: 10px 30px;
-        padding-top: 7px;
+        padding: 20px 30px;
+       
     }
     #welcome p{
         font-size: 18px;
@@ -165,14 +165,14 @@
         padding-bottom: 20px;
     }
     #drawing .box{
-        width: 90%;
-        padding: 30px;
+        width: 80%;
+        padding: 20px;
     }
     #drawing .time section {
         margin-left: 5px;
       
         border-radius: 10px;
-        padding: 10px;
+        padding: 5px;
     }
     #expert .pics{
         display: inline;
@@ -223,6 +223,7 @@
         width: 100%;
     }
   #footer footer{
-       font-size: 18px
+       font-size: 18px;
+       line-height: 28px;
    }
 }
