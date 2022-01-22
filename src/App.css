@@ -1,38 +1,450 @@
-.App {
-  text-align: center;
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Concert One', cursive;
+}
+.container{
+    padding: 0px 80px;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #423f8d;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+button{
+    background: #12d9df;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    margin-top: -10px;
+    font-size: 22px;
+    font-family: 'Concert One', cursive;
+    padding-top: 7px;
+}
+button:hover{
+    transition: 1s;
+    background: #55797a;
+}
+#header{
+    font-family: 'Concert One', cursive;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   color: blue;
+    width: 100%;
+    height: 80px;
+}
+#header .left{
+    position: absolute;
+    top: 20px;
+   
+}
+#header .right{
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    
+}
+#header .right ul{
+    display: flex;
+}
+#header ul li{
+    display: flex;
+}
+#header ul li a{
+    color: #423f8d;
+  text-decoration: none;
+    margin: 0px 30px;
+    display: block;
+    font-size: 22px;
+    
+    text-transform:capitalize;
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#header ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
+    height: 3px;
+    z-index: 1;
+    background: #ed078b;
+    /* -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s; */
+    transition: .4s;
+}
+#header ul li a:hover{
+    color: #ed078b;
+}
+#header ul li a:hover:after{
+    width: 60px;
+    color: #ed078b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header button{
+    background: #12d9df;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    margin-top: -10px;
+    font-size: 22px;
+    font-family: 'Concert One', cursive;
+}
+#header button:hover{
+     transition: 1s;
+     background: #55797a;
+}
+#home{
+    font-family: 'Fredoka One', cursive;
+    padding-top:200px;
+   background: url('/public/home-background.webp')no-repeat center center/cover;
+   top: 0px;
+   left: 0px;
+   height: 100%;
+   padding-bottom: 100px;
+   width: 100%;
+}
+#home #box{
+    margin-left: 80px;
+    border-radius: 40px;
+    width: 30%;
+    height: 50%;
+    background-color: #ffffff8f;
+    padding: 40px 70px;
+    z-index: 10px;
+}
+#home h1{
+    font-size: 90px;
+    letter-spacing: 1px;
+    color: #423f8d;
+}
+#home h2{
+    font-size: 33px;
+    color: orange;
+}
+#home button{
+    margin-top: 40px;
+    background: #ed078b;
+}
+#home button:hover{
+    background: #940455;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#welcome{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+#welcome span{
+    color: #ed078b;
+}
+#welcome p{
+    font-size: 20px;
+    margin-top: 40px;
+    margin: 20px 150px;
+    line-height: 30px;
+}
+#inter{
+    margin-top: 100px;
+}
+#inter .container{
+    display: flex;
+}
+#inter .a{
+    width: 33%;
+}
+#inter .b{
+    margin-left: 80px;
+}
+#inter .box{
+    display: flex;
+    margin-top: 40px;
+}
+#inter .box h3{
+    font-size: 30px;
+}
+#inter .box p{
+    margin-top: 10px;
+    font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+#inter .box .text{
+    margin-left: 30px;
+}
+#inter .box  .friendly h3{
+    color: #f5ce09;
+}
+#image{
+    margin-top: 100px;
+    width: 140%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#classes{
+    margin-top: 50px;
+    z-index: 1;
+    text-align: center;
+    padding-top: 80px;
+    background: url('/public/bg-1.webp')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 80px;
 }
+#classes p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 150px;
+}
+#classes .box-sec{
+    display: flex;
+    margin-top: 50px;
+}
+#classes .box-sec .box{
+    text-align: start;
+    width: 30%;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+#classes .box-sec .box .text{
+    padding: 20px;
+}
+#classes .box-sec .box h3{
+     font-size: 25px;
+     color: #ed078b;
+}
+#classes .box-sec .box p{
+    margin: 0px;
+    margin-top: 10px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+#classes .box-sec .box .age{
+    display: flex;
+    margin-top: 20px;
+}
+#classes .box-sec .box .age .b {
+     margin-left: 30px;
+}
+#classes .box-sec .box .age .c {
+     margin-left: 30px;
+}
+#classes .box-sec .box .age p{
+    font-size: 17px;
+}
+#classes .box-sec .box .age .b h3{
+    color: #f5ce09;
+}
+#classes .box-sec .box .age .c h3{
+    color: #423f8d;
+}
+#classes button{
+    margin-top: 70px;
+    padding: 20px 50px;
+    background-color: transparent;
+    border: 2px solid #ed078b;
+    color: #ed078b;
+}
+#classes button:hover{
+    background-color: #e469ae;
+    color: white;
+    border: none;
+    transition: 1.5s;
+}
+
+
+
+#drawing{
+    background: url('/public/drawing-bg.webp')no-repeat center center/cover;
+    width: 100%;
+    height:100%;
+    padding-top: 100px;
+    padding-bottom: 10px;
+  
+}
+#drawing .box{
+    padding: 50px 30px;
+    border-radius: 40px;
+    margin: 80px auto;
+    width: 35%;
+    background-color: white;
+  
+    text-align: center;
+}
+#drawing h3{
+    color: #ed078b;
+    font-size: 25px;
+}
+
+#drawing p{
+    margin-top: 30px;
+}
+#drawing button{
+    margin-top: 50px;
+    padding: 10px 30px;
+   padding-top: 7px;
+}
+#drawing .time p{
+    margin: 0px;
+    padding-top: 10px;
+}
+#drawing .time{
+    text-align: center;
+   margin-top: 40px;
+    display: flex;
+}
+#drawing span{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#drawing .time section{
+    margin-left: 15px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#expert{
+    text-align: center;
+    margin-top: 100px;
+}
+#expert .para{
+    margin: 20px 180px;
+    line-height: 29px;
+}
+#expert .pics{
+    display: flex;
+    text-align: center;
+    margin: 30px auto;
+}
+#expert .pics .box{
+    margin-left: 20px;
+}
+#expert .pics h2{
+    margin-top: 30px;
+}
+#expert .pics .box p{
+    margin-top: 10px;
+}
+
+#me{
+    text-align: center;
+    background: url('/public/bg-1.webp')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    padding: 80px 0px;
+}
+#me .para{
+    margin: 20px 180px;
+}
+#me .king{
+    display: flex;
+    margin: 30px 400px;
+}
+#me .king img{
+    border-radius: 50%;
+}
+#me .king .b{
+    margin-top: 15px;
+    margin-left: -70px;
+}
+#me .king .b p{
+    margin-top: 10px;
+}
+
+#image{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+}
+
+#footer {
+    background: #423f8d;
+    padding-top:100px ;
+    width: 100%;
+   color: white;
+   padding-bottom: 30px;
+}
+#footer .container .foot-sec{
+    display: flex;
+}
+#footer .a{
+         width: 50%;
+}
+#footer .b{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#footer .c{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+ #footer h1{
+     color: white;
+     font-size: 30px;
+ }
+ #footer p{
+    margin-top: 10px;
+     font-size: 18px;
+     padding-right: 100px;
+ }
+ #footer ul{
+     margin-top: 10px;
+ }
+ #footer ul li{
+     display: flex;
+    
+ }
+ #footer ul li a{
+     transition: .9s;
+     color: white;
+     font-size: 20px;
+     margin-top: 15px;
+     text-decoration: none;
+ }
+ #footer ul li a:hover{
+     color: #ed078b;
+ }
+ #footer i{
+     margin-top: 40px;
+     background:#211da3;
+     border-radius: 30px;
+     padding: 15px;
+     font-size: 20px;
+     margin-left: 20px;
+
+ }
+ #footer .icons i:hover{
+     transition: .9s;
+     background-color: #ed078b;
+ }
+
+ #footer footer{
+    border-left: 2px solid #12d9df;
+     font-size: 22px;
+     margin-top: 80px;
+    padding-left: 7px;
+   
+ }
+ #footer footer i{
+     background: none;
+     color: #6cd9e0;
+     margin: 0px;
+     padding: 0px;
+    
+ }
+ #footer footer i:hover{
+     transition: .9s;
+     color: #ed078b;
+ }

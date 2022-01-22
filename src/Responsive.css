@@ -1,0 +1,173 @@
+@media(max-width:992px){
+    #header .left{
+        left: 10px;
+    }
+    #header .right{
+        right:10px;
+    }
+    #home #box{
+        width: 40%;
+    }
+    #inter .a{
+        width: 80%;
+    }
+    #inter .b{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    #classes p{
+        margin: 20px 70px;
+    }
+    #drawing .box{
+        width: 50%;
+    }
+    #expert .para{
+        margin: 20px 100px;
+    }
+    #me .para{
+        margin: 20px 70px;
+    }
+    #me .king{
+        margin: 30px 200px;
+    }
+}
+@media(max-width:776px){
+    .container{
+        padding: 0px 40px;
+    }
+    #header .left{
+        left: 30px;
+    }
+    #home h1{
+        font-size: 60px;
+    }
+    #home h2{
+        font-size: 30px;
+    }
+    #header .right{
+       display: none;
+    }
+    #welcome p{
+        margin: 20px ;
+    }
+    #inter{
+        margin: 40px;
+    }
+    #inter .container{
+        display:inline;
+    }
+    #classes p{
+        margin: 20px;
+    }
+    #classes .box-sec {
+        display: inline;
+        margin-top: 50px;
+       
+    }
+    #classes .box-sec .box{
+        margin-top: 40px;
+        width: 80%;
+        margin: 50px 70px;
+    }
+    #drawing .box{
+        width: 60%;
+    }
+    #expert .para{
+        margin: 20px;
+    }
+    #me .para{
+        margin: 20px;
+    }
+    #me img{
+        width: 10%;
+    }
+    #me .king{
+        margin: 30px 120px;
+    }
+    #me .king img{
+        width: 40%;
+    }
+    #footer .container .foot-sec{
+        display:inline;
+    }
+    #footer .lap{
+        display: flex;
+    }
+    #footer .lap .b{
+        margin-left: 80px;
+    }
+    #footer .c{
+        margin-top: 50px;
+    }
+    #footer p{
+        padding: 0px;
+    }
+}
+
+@media(max-width:576px){
+   
+    .container{
+        padding: 0px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+    button{
+        padding: 5px 30px;
+        font-size: 20px;
+    }
+    #home #box{
+        margin-left: 30px;
+        width: 60%;
+    }
+    #inter{
+        margin: 40px 20px;
+      
+    }
+    #inter .a{
+        width: 100%;
+    }
+    #inter .b{
+        margin: 0px;
+    }
+    #image{
+        margin-top: 100px;
+        width: 100%;
+    }
+    #classes .box-sec .box {
+        margin-top: 40px;
+        width: 80%;
+        margin: 50px 0px;
+    }
+    #drawing .box{
+        width: 80%;
+    }
+    #drawing .time section {
+        margin-left: 5px;
+      
+        border-radius: 10px;
+        padding: 10px;
+    }
+    #expert .pics{
+        display: inline;
+    }
+    #expert .pics img{
+        width: 80%;
+    }
+    #expert .pics .box{
+        margin-top: 50px;
+    }
+    #me .king{
+        margin: 30px 0px;
+    }
+    #footer .lap{
+        display: inline;
+    }
+    #footer .a,.b,.c{
+        width: 100%;
+    }
+}
