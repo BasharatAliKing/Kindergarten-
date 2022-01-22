@@ -110,7 +110,9 @@
         padding: 0px;
     }
     h1{
+        margin-top: 40px;
         font-size: 40px;
+        line-height: 30px;
     }
     p{
         font-size: 18px;
@@ -121,8 +123,9 @@
         font-size: 20px;
     }
     #home #box{
-        margin-left: 30px;
+        margin-left: 0px;
         width: 60%;
+        height: 90%;
     }
     #inter{
         margin: 40px 20px;
@@ -130,6 +133,9 @@
     }
     #inter .a{
         width: 100%;
+    }
+    #inter .a  img{
+        width: 160%;
     }
     #inter .b{
         margin: 0px;
@@ -141,10 +147,11 @@
     #classes .box-sec .box {
         margin-top: 40px;
         width: 80%;
-        margin: 50px 0px;
+        margin: 50px 40px;
     }
     #drawing .box{
         width: 80%;
+        padding: 0px;
     }
     #drawing .time section {
         margin-left: 5px;
