@@ -120,10 +120,13 @@
         margin: 20px 0px;
     }
     #home #box{
-        margin-left: 20px;
+        margin-left: 10px;
         width: 60%;
         height: 90%;
         padding: 30px;
+    }
+    #home h1{
+        font-size: 40px;
     }
     #home h2{
         margin-top: 40px;
