@@ -275,7 +275,7 @@ import "./Responsive.css";
                  <div className="foot-sec">
                 <div className="lap">
                 <div className="a">
-                    <img src={process.env.PUBLIC_URL+"/footer-logo.png"} alt="My-Pic" width="40%"/>
+                    <img src={process.env.PUBLIC_URL+"/header-logo.png"} alt="My-Pic" width="40%"/>
                     <p>Users and submit their own items. You can create different packages and by connecting with your PayPal or Stripe account charge users for registration.</p>
                    <div className="icons">
                        <i className='fa fa-twitter'></i>
