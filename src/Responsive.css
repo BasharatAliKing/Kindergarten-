@@ -226,11 +226,10 @@
     #image img{
         text-align: center;
         width: 100%;
-        margin-left: 50px;
     }
     #footer{
         width: 89%;
-        padding: 0px 40px;
+        padding: 40px 20px;
     }
     #footer img{
         width: 60%;
