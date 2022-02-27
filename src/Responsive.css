@@ -235,6 +235,7 @@
     #footer{
         width: 89%;
         padding: 40px 20px;
+        padding-bottom: 0px;
     }
     #footer img{
         width: 30%;
