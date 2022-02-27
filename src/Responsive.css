@@ -121,12 +121,13 @@
     }
     #home #box{
         margin-left: 10px;
-        width: 80%;
+        width: 70%;
         height: 90%;
         padding: 30px;
     }
     #home h1{
-        font-size: 45px;
+        font-size: 55px;
+        line-height: 50px;
     }
     #home h2{
         margin-top: 40px;
