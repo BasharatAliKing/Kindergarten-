@@ -224,11 +224,13 @@
         width: 100%;
     }
     #image img{
+        text-align: center;
         width: 100%;
+        margin-left: 50px;
     }
     #footer{
         width: 89%;
-        padding: 40px 20px;
+        padding: 0px 40px;
     }
     #footer img{
         width: 60%;
@@ -250,7 +252,7 @@
     }
   #footer footer{
       margin-top: 40px;
-       font-size: 12px;
+       font-size: 16px;
       line-height: 14px;
    }
 }
