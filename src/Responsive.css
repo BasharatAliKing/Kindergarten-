@@ -242,7 +242,8 @@
         width: 100%;
     }
   #footer footer{
-       font-size: 18px;
-       line-height: 28px;
+      margin-top: 40px;
+       font-size: 12px;
+      line-height: 14px;
    }
 }

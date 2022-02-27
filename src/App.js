@@ -10,7 +10,7 @@ import "./Responsive.css";
     let interval = useRef();
 
     const startTimer = () =>{
-        const countdownDate = new Date('May 30, 2022 00:00:00').getTime();
+        const countdownDate = new Date('Mar 18, 2022 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -49,7 +49,7 @@ import "./Responsive.css";
                 <section id="header">
                     <div className="container">
                         <div className="left">
-                            <img src={process.env.PUBLIC_URL + "/logo-1.webp"} alt="My-Pic" width="100%" />
+                            <img src={process.env.PUBLIC_URL + "/header-logo.png"} alt="My-Pic" width="10%" />
                         </div>
                         <div className="right">
                             <ul>
@@ -66,16 +66,16 @@ import "./Responsive.css";
 
                 <section id="home">
                     <div className="container" id='box' >
-                        <h1>Quality</h1>
-                        <h1>Learning</h1>
+                        <h1>Al-Tanveer</h1>
+                        <h1>Academy</h1>
                         <h2>For Every Child</h2>
                         <button>Explore Classes</button>
                     </div>
                 </section>
 
                 <section id="welcome">
-                    <h1>Welcome to our <span>Kindergarten</span></h1>
-                    <p>Our set he for firmament morning sixth subdue today the darkness creeping gathered divide our let god moving today. Moving in fourth air night bring upon lesser subdue fowl male signs.</p>
+                    <h1>Welcome to our <span>Academy</span></h1>
+                    <p>"We provide top quality education from Playgroup to M.A which allows a complete career path for every student. Our journey does not end here as we strive for the continuous improvement of our education system with the help of innovative and ground breaking teaching methods"</p>
                 </section>
 
                 <section id="inter">
@@ -104,7 +104,7 @@ import "./Responsive.css";
                             </div>
                         </div>
                         <div className="b">
-                            <img src={process.env.PUBLIC_URL+ "/inter.webp"} alt="My-Pic" width="100%" />
+                            <img src={process.env.PUBLIC_URL+ "/inter-img.jpg"} alt="My-Pic" width="100%" />
                         </div>
                     </div>
                 </section>
@@ -118,12 +118,12 @@ import "./Responsive.css";
                       <div className="box">
                            <img src={process.env.PUBLIC_URL+ "/classes-1.webp"} alt="My-Pic" width="100%" />
                          <div className="text">
-                         <h3>Intelligent Challenge</h3>
-                           <p>The Word you use in your written communi speak volumes.</p>
-                           <hr />
+                         <h3>Primary & Middle</h3>
+                           <p>In this Section we will provide Playgroup to 8th Classes. </p>
+                           {/* <hr />
                            <div className="age">
                                <div className="a">
-                                   <h3>3-5</h3>
+                                   <h3>5-14</h3>
                                    <p>Age Group</p>
                                </div>
                                <div className="b">
@@ -131,21 +131,21 @@ import "./Responsive.css";
                                    <p>Age Group</p>
                                </div>
                                <div className="c">
-                                   <h3>10/h</h3>
+                                   <h3>05/h</h3>
                                    <p>Age Group</p>
                                </div>
-                           </div>
+                           </div> */}
                          </div>
                        </div>
                       <div className="box">
                            <img src={process.env.PUBLIC_URL+ "/classes-2.webp"} alt="My-Pic" width="100%" />
                            <div className="text">
-                         <h3>Intelligent Challenge</h3>
-                           <p>The Word you use in your written communi speak volumes.</p>
-                           <hr />
+                         <h3>High School Study</h3>
+                           <p>In this Section we will provide 9th & 10th Classes.</p>
+                           {/* <hr />
                            <div className="age">
                                <div className="a">
-                                   <h3>3-5</h3>
+                                   <h3>14-23</h3>
                                    <p>Age Group</p>
                                </div>
                                <div className="b">
@@ -153,19 +153,19 @@ import "./Responsive.css";
                                    <p>Age Group</p>
                                </div>
                                <div className="c">
-                                   <h3>10/h</h3>
+                                   <h3>07/h</h3>
                                    <p>Age Group</p>
                                </div>
-                           </div>
+                           </div> */}
                          </div>
                        </div>
                       <div className="box">
                            <img src={process.env.PUBLIC_URL+ "/classes-3.webp"} alt="My-Pic" width="100%" />
                            <div className="text">
-                         <h3>Intelligent Challenge</h3>
-                           <p>The Word you use in your written communi speak volumes.</p>
-                           <hr />
-                           <div className="age">
+                         <h3>Inter & University Level</h3>
+                           <p>In this Section we will provide here 11th to M.A Classes.</p>
+                           {/* <hr />
+                            <div className="age">
                                <div className="a">
                                    <h3>3-5</h3>
                                    <p>Age Group</p>
@@ -178,7 +178,7 @@ import "./Responsive.css";
                                    <h3>10/h</h3>
                                    <p>Age Group</p>
                                </div>
-                           </div>
+                           </div> */}
                          </div>
                        </div>
                       </div>
@@ -188,9 +188,9 @@ import "./Responsive.css";
             
             <section id="drawing">
                 <div className="box">
-                    <h3>18 Jan 2021</h3>
-                    <h1>Drawing Event</h1>
-                    <p>Our set he for firmament morning sixth subdue today the darkness creeping gathered divide our let god moving today moving in fourth.</p>
+                    <h3>18 Mar 2022</h3>
+                    <h1>Farewell Event</h1>
+                    <p>At the farewell party, everyone is dressed up and the celebration is loud and festive. A farewell party was organised, to which all political parties were invited.</p>
                    <button>View Event</button>
 
                    <div className="time">
@@ -224,25 +224,25 @@ import "./Responsive.css";
               
                   <div className="pics">
                       <div className="box">
-                        <img src={process.env.PUBLIC_URL+"/teacher-1.webp"} alt="My-Pic" width="100%"/>
-                        <h2>Mr.Jackson Clay</h2>
-                        <p>Sports Instructor</p>
+                        <img src={process.env.PUBLIC_URL+"/teacher-1.png"} alt="My-Pic" width="100%"/>
+                        <h2>M.Abdullah</h2>
+                        <p>Science Teacher</p>
+                      </div>
+                      <div className="box" id='box-2'>
+                        <img src={process.env.PUBLIC_URL+"/teacher-2.png"} alt="My-Pic" width="88%"/>
+                        <h2>Jamat Ali</h2>
+                        <p>Maths Teacher</p>
                       </div>
                       <div className="box">
-                        <img src={process.env.PUBLIC_URL+"/teacher-2.webp"} alt="My-Pic" width="100%"/>
-                        <h2>Aleeza</h2>
-                        <p>Sports Instructor</p>
+                        <img src={process.env.PUBLIC_URL+"/teacher-3.png"}  alt="My-Pic" width="100%"/>
+                        <h2>Ume Abdullah</h2>
+                        <p>Arts Teacher</p>
                       </div>
-                      <div className="box">
-                        <img src={process.env.PUBLIC_URL+"/teacher-3.webp"} alt="My-Pic" width="100%"/>
-                        <h2>Mr.Jackson Clay</h2>
-                        <p>Sports Instructor</p>
-                      </div>
-                      <div className="box">
-                        <img src={process.env.PUBLIC_URL+"/teacher-2.webp"} alt="My-Pic" width="100%"/>
+                      {/* <div className="box">
+                        <img src={process.env.PUBLIC_URL+"/teacher-1.png"} alt="My-Pic" width="100%"/>
                         <h2>Aleeza </h2>
                         <p>Sports Instructor</p>
-                      </div>
+                      </div> */}
                   </div>
                 </div>
             </section>
@@ -250,15 +250,15 @@ import "./Responsive.css";
             <section id="me">
                 <div className="container">
                     <img src={process.env.PUBLIC_URL+"/comma.webp"} alt="My-Pic" width="6%" />
-                    <p className='para'>"Supercharge your WordPress hosting with detailed website analytics, marketing tools. Our experts are just part of the reason Bluehost is the ideal home for your WordPress website. We're here to help you succeed!</p>
+                    <p className='para'>"“Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.”</p>
                    
-                   <div className="king">
+                   {/* <div className="king">
                      <div className="a"> <img src={process.env.PUBLIC_URL+"/me.jpg"} alt="My-Pic" width="30%" /></div>
                       <div className="b">
                           <h2>Basharat Ali</h2>
                           <p>Web Developer</p>
                       </div>
-                   </div>
+                   </div> */}
 
                 </div>
             </section>
@@ -275,7 +275,7 @@ import "./Responsive.css";
                  <div className="foot-sec">
                 <div className="lap">
                 <div className="a">
-                    <img src={process.env.PUBLIC_URL+"/logo-1.webp"} alt="My-Pic" width="40%"/>
+                    <img src={process.env.PUBLIC_URL+"/footer-logo.png"} alt="My-Pic" width="40%"/>
                     <p>Users and submit their own items. You can create different packages and by connecting with your PayPal or Stripe account charge users for registration.</p>
                    <div className="icons">
                        <i className='fa fa-twitter'></i>
@@ -307,7 +307,7 @@ import "./Responsive.css";
                     </ul>
                 </div>
                  </div>
-                <footer>Copyright &copy; basharatalidogar14@gmail.com <i className='fa fa-heart'></i> All Right Reversed!</footer>
+                <footer>Copyright &copy; basharatalidogar14@gmail.com  All Right Reversed!</footer>
      
             </div>
 
