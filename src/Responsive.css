@@ -126,8 +126,8 @@
         padding: 30px;
     }
     #home h1{
-        font-size: 55px;
-        line-height: 50px;
+        font-size: 50px;
+        line-height: 25px;
     }
     #home h2{
         margin-top: 40px;
@@ -196,6 +196,9 @@
     }
     #expert .pics{
         display: inline;
+    }
+    #expert .pics .box{
+        width: 100%;
     }
     #expert .pics img{
         width: 80%;
